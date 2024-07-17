@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cumpleaños</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f8ff;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: url('https://via.placeholder.com/1920x400') no-repeat center center/cover;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 2em;
+            font-weight: bold;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        .container {
+            width: 80%;
+            margin: 100px auto 0; /* Adjusted margin to avoid overlap with fixed header */
+            overflow: hidden;
+        }
+        .intro {
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .intro h2 {
+            font-size: 1.5em;
+        }
+        .teams-container {
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+        .teams {
+            display: flex;
+            flex-direction: column;
+            width: 44%;
+            margin: 10px;
+        }
+        .team {
+            background-color: #fff;
+            border: 2px solid #ff7f50;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            padding: 20px;
+        }
+        .team h3 {
+            text-align: center;
+            color: #ff7f50;
+        }
+        .member {
+            display: flex;
+            align-items: center;
+            margin: 10px 0;
+            padding: 10px;
+            background: #ffefd5;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            text-decoration: none;
+            color: black;
+        }
+        .member img {
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            margin-right: 10px;
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+        .member:hover img {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .member:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .vs {
+            font-size: 3em;
+            font-weight: bold;
+            color: #ff4500;
+            animation: bounce 1s infinite;
+            margin: 20px;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% {
+                transform: translateY(0);
+            }
+            40% {
+                transform: translateY(-20px);
+            }
+            60% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        ¡Feliz Cumpleaños!
+    </header>
+    <div class="container">
+        <div class="intro">
+            <h2>Bienvenidos a la celebración de cumpleaños</h2>
+            <p>Nos divertiremos con juegos y actividades. Aquí están los equipos:</p>
+        </div>
+        <div class="teams-container">
+            <div class="teams">
+                <div class="team">
+                    <h3>Equipo 1</h3>
+                    <a href="persona1.html" class="member">
+                        <img src="https://via.placeholder.com/50" alt="Persona 1">
+                        <p>Persona 1</p>
+                    </a>
+                    <a href="persona2.html" class="member">
+                        <img src="https://via.placeholder.com/50" alt="Persona 2">
+                        <p>Persona 2</p>
+                    </a>
+                    <a href="persona3.html" class="member">
+                        <img src="https://via.placeholder.com/50" alt="Persona 3">
+                        <p>Persona 3</p>
+                    </a>
+                    <a href="persona4.html" class="member">
+                        <img src="https://via.placeholder.com/50" alt="Persona 4">
+                        <p>Persona 4</p>
+                    </a>
+                    <a href="persona5.html" class="member">
+                        <img src="https://via.placeholder.com/50" alt="Persona 5">
+                        <p>Persona 5</p>
+                    </a>
+                    <a href="persona6.html" class="member">
+                        <img src="https://via.placeholder.com/50" alt="Persona 6">
+                        <p>Persona 6</p>
+                    </a>
+                    <a href="persona7.html" class="member">
+                        <img src="https://via.placeholder.com/50" alt="Persona 7">
+                        <p>Persona 7</p>
+                    </a>
+                </div>
+            </div>
+            <div class="vs">VS</div>
+            <div class="teams">
+                <div class="team">
+                    <h3>Equipo 2</h3>
+                    <a href="persona8.html" class="member">
+                        <img src="https://via.placeholder.com/50" alt="Persona 8">
+                        <p>Persona 8</p>
+                    </a>
+                    <a href="persona9.html" class="member">
+                        <img src="https://via.placeholder.com/50" alt="Persona 9">
+                        <p>Persona 9</p>
+                    </a>
+                    <a href="persona10.html" class="member">
+                        <img src="https://via.placeholder.com/50" alt="Persona 10">
+                        <p>Persona 10</p>
+                    </a>
+                    <a href="persona11.html" class="member">
+                        <img src="https://via.placeholder.com/50" alt="Persona 11">
+                        <p>Persona 11</p>
+                    </a>
+                    <a href="persona12.html" class="member">
+                        <img src="https://via.placeholder.com/50" alt="Persona 12">
+                        <p>Persona 12</p>
+                    </a>
+                    <a href="persona13.html" class="member">
+                        <img src="https://via.placeholder.com/50" alt="Persona 13">
+                        <p>Persona 13</p>
+                    </a>
+                    <a href="persona14.html" class="member">
+                        <img src="https://via.placeholder.com/50" alt="Persona 14">
+                        <p>Persona 14</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
